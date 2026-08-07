@@ -9,3 +9,5 @@
 - **Toggleable FAB (`ToggleFloatingActionButton`)**: Smoothly animate state changes with interpolated container size, corner radius, color transitions, and custom icon animations.
 - **Staggered Animations & Scroll Support**: Polished motion scheme integration with support for scrollable menus when items exceed available screen height.
 - **Keyboard & Accessibility Support**: Built-in keyboard navigation support (Tab / Down arrow) and focus management out-of-the-box.
+
+[![](https://jitpack.io/v/rJoel01/expressive-fab.svg)](https://jitpack.io/#rJoel01/expressive-fab)
