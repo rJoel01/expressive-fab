@@ -1,3 +1,11 @@
+
+
+https://github.com/user-attachments/assets/e561c694-f951-470b-af5f-9c7ea0f50894
+
+
+
+https://github.com/user-attachments/assets/76a14873-d320-4930-a7a9-de3fa42b3bf6
+
 # Expressive FAB for Jetpack Compose
 
 **Expressive FAB** is a Jetpack Compose library that provides enhanced, expressive Floating Action Button components and menus. It brings fluid animations and customizable layouts to your Android application.
