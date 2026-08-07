@@ -10,4 +10,28 @@
 - **Staggered Animations & Scroll Support**: Polished motion scheme integration with support for scrollable menus when items exceed available screen height.
 - **Keyboard & Accessibility Support**: Built-in keyboard navigation support (Tab / Down arrow) and focus management out-of-the-box.
 
+  ### Step 1. Add the JitPack repository
+
+Add the JitPack repository to your `settings.gradle` file:
+
+```gradle
+dependencyResolutionManagement {
+	repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+	repositories {
+		mavenCentral()
+		maven { url 'https://jitpack.io' }
+	}
+}
+```
+
+### Step 1. Add the dependency
+
+```
+dependencies {
+	implementation 'com.github.rJoel01:expressive-fab:Tag'
+}
+```
+
+
+
 [![](https://jitpack.io/v/rJoel01/expressive-fab.svg)](https://jitpack.io/#rJoel01/expressive-fab)
