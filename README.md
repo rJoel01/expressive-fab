@@ -28,7 +28,7 @@ dependencyResolutionManagement {
 
 ```
 dependencies {
-	implementation 'com.github.rJoel01:expressive-fab:Tag'
+	implementation 'com.github.rJoel01:expressive-fab:1.0.0'
 }
 ```
 
