@@ -46,6 +46,30 @@ dependencies {
 }
 ```
 
-
-
 [![](https://jitpack.io/v/rJoel01/expressive-fab.svg)](https://jitpack.io/#rJoel01/expressive-fab)
+
+
+### In code usage:
+
+```
+var expanded by remember { mutableStateOf(false) }
+
+                    ExpressiveFabMenu(
+                        expanded = expanded,
+                        button = {
+                            // YOUR BUTTON COMPOSABLE
+                        },
+                        expandDirection = FabMenuExpandDirection.BELOW
+                    ) {
+                        this.ExpressiveFabMenuItem(
+                            onClick = {},
+                            text = {
+                                //YOUR TEXT COMPOSABLE
+                            },
+                            icon = {
+                                //YOUR ICON COMPOSABLE
+                            }
+                        )
+                    }
+
+```
